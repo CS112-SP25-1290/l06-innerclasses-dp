@@ -1,6 +1,6 @@
 public class Person implements Comparable
 {
-	/***** TODO: (Part 2) create helper inner class for Identity*****/
+
 
 	private class Identity {
 		private String pronouns, background;
@@ -119,7 +119,7 @@ public class Person implements Comparable
 	}
 
 	// INTERFACE METHODS
-	/***** TODO: (Part 1) override compareTo method to implement Comparable interface*****/
+
 	@Override
 	public int compareTo(Object other) {
 		Person otherPerson = (Person)other;

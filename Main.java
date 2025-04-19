@@ -73,7 +73,7 @@ public class Main
 					System.out.println(self);
 					break;
 				case 3:
-					/***** TODO: (Part 1) implement a comparison case using the comparable method on the Person class to compare self to p1-p4*****/
+				
 
 					System.out.println("\nReturning to main menu.\n");
 					break;
@@ -112,7 +112,7 @@ public class Main
 
 	}
 
-	/***** TODO: (Part 2) upgrade method to ask user for pronouns and background info *****/
+
 	public static void fillInfo(Person person){
 		//sets default privilege prior to questionnaire to 100
 		String name, pronouns, background;
